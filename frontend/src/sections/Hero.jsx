@@ -81,7 +81,7 @@ const Hero = () => {
                 //   rotation={[0, 28.5, 0]}
                 position={sizes.deskPosition}
                 rotation={[0.3, -Math.PI, 0]}
-                scale={sizes.deskScale}
+                scale={sizes.deskScale+0.025}
               />
             </HeroCamera>
             <group>
@@ -96,7 +96,7 @@ const Hero = () => {
         </Canvas>
       </div>
       <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#contact" className="w-fit">
+        <a href="#about" className="w-fit">
           <Button
             name="Let's work together"
             isBeam
